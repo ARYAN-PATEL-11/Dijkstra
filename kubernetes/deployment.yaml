@@ -1,7 +1,7 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: backend-deployment
+  name: backend-dijkstra-deployment
 spec:
   replicas: 2
   selector:
@@ -13,7 +13,7 @@ spec:
         app: backend
     spec:
       containers:
-        - name: backend-container
+        - name: backend-dijkstra-container
           image: aryanpatel111/dijkstra-shortest-path-finder
           ports:
             - containerPort: 8081
