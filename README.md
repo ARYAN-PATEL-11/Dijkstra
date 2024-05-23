@@ -1,4 +1,4 @@
-# Backend for IIITB Pathfinder - BellmanFord Algorithm
+# Backend for IIITB Pathfinder - Dijkstra Algorithm
 
 ## DevOps Tools Required
 - Kubectl
